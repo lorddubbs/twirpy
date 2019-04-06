@@ -12,8 +12,8 @@
 Twirpy is a web app that enables Quick Trend Detection on the popular social media Twitter.
 
 ## Running the App
-- 
-- 
+- Ensure you have npm installed. Follow the instructions for your platform <a href="https://github.com/npm/npm">here</a>.
+- Install Dependencies. Run Command <pre><code>npm install</code></pre>
 
 
 
