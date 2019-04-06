@@ -15,5 +15,8 @@ Twirpy is a web app that enables Quick Trend Detection on the popular social med
 - Install Dependencies. Run Command <pre><code>npm install</code></pre>
 - Boot the server Run Command <pre><code>php artisan serve</code></pre>
 
-
-
+## Important Dependencies
+- Webpack or any bundler alternative (Pre-installed in Laravel)
+- <a href="https://github.com/vuejs/">Vuex | Vue Router | Axios</a>
+- <a href="https://github.com/guzzle/guzzle">Guzzle</a>
+- <a href="https://laravel.com/docs/5.6/passport">Laravel Passport</a>  (Optional) 
