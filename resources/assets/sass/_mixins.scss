@@ -1,0 +1,29 @@
+/*!
+ *  UBERVOTE APP 1.0 by PeterOduntan @Lord_Dubbs and http://roycetechng.com - @Roycetech
+ *  For Tetfund @Dr_Omotosho
+ */
+/* ... and we BEGIN
+ * -------------------------- */
+
+ @mixin respond-to($breakpoint) {
+   // if key exists in map
+   @if map-has-key($breakpoints, $breakpoint) {
+     //print media query based on the value
+     @media (max-width: map-get($breakpoints, $breakpoint)) {
+       @content;
+     }
+   }
+   // if key doesn't exist in the map-get
+   @else {
+     @warn "Unfortunately, no value could be retrieved from '#{$breakpoint}'. "
+     + "Available breakpoints are: #{map-keys($breakpoints)}.";
+   }
+ }
+
+ @mixin transition($args...) {
+   -webkit-transition: $args;
+   -moz-transition: $args;
+   -ms-transition: $args;
+   -o-transition: $args;
+   transition: $args;
+ }
